@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/AlejandroLaLoggia/profile-card-component)
-- Live Site URL: [Github page](https://github.com/AlejandroLaLoggia/)
+- Live Site URL: [Github page](https://alejandrolaloggia.github.io/profile-card-component/)
 
 ## My process
 
