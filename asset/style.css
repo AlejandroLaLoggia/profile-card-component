@@ -1,0 +1,123 @@
+:root {
+
+    /*Primary Color*/
+
+    --Dark_cyan: hsl(185, 75%, 39%);
+    --Very_dark_desaturated: hsl(229, 23%, 23%);
+    --Dark_grayish_blue: hsl(227, 10%, 46%);
+
+    /*Neutral Color*/
+
+    --Dark_gray: hsl(0, 0%, 59%);
+
+    /*Font Family*/
+    --ff_all: 'Kumbh Sans', sans-serif;
+    --fs_all: 18px;
+    --fw_bold: 700;
+    --fw_regular: 400;
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;  /*1 rem = 10 px*/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    
+}
+
+
+body {
+    height: 100vh;
+    background-color: var(--Dark_cyan);
+    background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+    background-position-x: right 50vw, 50vw;
+    background-position-y: bottom 50vh , 50vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+   
+    font-family: var(--ff_all);
+}
+
+body,
+.flex_group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card {
+    width: 350px;
+    height: 375px;
+    
+    font-size: var(--fs_all);
+
+    background-color: white;
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+
+    border-radius: 1.4rem;
+}
+
+.card_img{
+    margin-top: 60px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background: white;
+}
+
+.card_body{
+    width: 100%;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    border-bottom: 0.5px solid var(--Dark_gray);
+}
+
+.card_title{
+    font-size: var(--fs_all);
+}
+
+.card_span{
+    margin-left: 0.5rem;
+    color: var(--Dark_gray);
+}
+
+.card_body_location{
+    font-size: 1.4rem;
+    color: var(--Dark_gray);
+}
+
+.card_footer{
+    width: 90%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_div{
+    text-align: center;
+}
+
+.footer_number{
+    font-weight: var(--fw_bold);
+}
+
+.footer_type{
+    margin-top: 1rem;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--Dark_gray);
+}
+
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
